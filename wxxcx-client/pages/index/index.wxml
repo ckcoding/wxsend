@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+
+<view class='avatar-img'>
+  <open-data type="userAvatarUrl"></open-data>
+</view>
+
+</view>
+
+  <button style="margin:50px"  bindtap="getup">获取订阅</button>
+
+
+  <view class="usermotto">
+
+
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
+
+<!-- gnJg-8HC2X7o60qe_am0cvjCFckHLt49iGDq17Vn_Fg -->
